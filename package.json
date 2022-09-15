@@ -2,10 +2,14 @@
   "name": "workshop-crafting-human-friendly-clis",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "xo --fix"
   },
   "license": "MIT",
   "engines": {
     "node": ">=18.9.0"
+  },
+  "devDependencies": {
+    "xo": "^0.52.3"
   }
 }
