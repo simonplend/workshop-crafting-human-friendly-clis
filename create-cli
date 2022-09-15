@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+set -xe pipefail
+
+# Create CLI project directory
+mkdir takenote
+
+# Copy template skeleton CLI code
+cp -r .template/* takenote/
+
+# Change into the CLI project directory
+cd takenote/
+
+# Create package.json
+npm init --yes
+
+# Configure package.json
+
+# -- Configure the package so we can write ECMAScript (ES) modules
+npm pkg set type="module"
+
+npm pkg set description="Note taking CLI tool"
+
+# -- Remove unused field
+npm pkg delete main
+
+# -- Set required version of Node.js
+npm pkg set engines.node=">=18.7.0"
+
+# Make the entrypoint script executable so it can be run with: ./cli.js
+chmod ug+x cli.js
+
+# Configure package bin script
+npm pkg set bin.takenote="./cli.js"
+
+# Change back into the directory
+cd ..
+
+# Install the takenote CLI as a project dependency
+# This allows us to run the CLI with `npx takenote`
+npm install ./takenote/
