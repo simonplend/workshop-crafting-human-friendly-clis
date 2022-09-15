@@ -1,0 +1,11 @@
+{
+  "name": "workshop-crafting-human-friendly-clis",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.9.0"
+  }
+}
