@@ -10,6 +10,7 @@
     "node": ">=18.9.0"
   },
   "devDependencies": {
+    "@fastify/pre-commit": "^2.0.2",
     "xo": "^0.52.3"
   }
 }
