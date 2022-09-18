@@ -1,15 +1,15 @@
-import { parseArgs } from "node:util";
+import {parseArgs} from 'node:util';
 
 export const cliOptions = {
   note: {
-    type: "string",
+    type: 'string',
     multiple: true,
-    short: "n",
+    short: 'n',
   },
   private: {
-    type: "boolean",
-    short: "p"
-  }
+    type: 'boolean',
+    short: 'p',
+  },
 };
 
 export function parseArguments() {
