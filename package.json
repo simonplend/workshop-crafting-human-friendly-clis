@@ -12,5 +12,6 @@
   "devDependencies": {
     "@fastify/pre-commit": "^2.0.2",
     "xo": "^0.52.3"
-  }
+  },
+  "type":"module"
 }
