@@ -17,7 +17,7 @@ export async function writeToMarkdown({ notes, isPrivate, headings }) {
     await writeFile(path, newFile);
   } catch (err) {
     if (err.code === "ENOENT") {
-      let newFile = "";
+      let newFile = "---\n";
       for (let key in headings) {
         newFile += `${key}: ${headings[key]}\n`;
       }
