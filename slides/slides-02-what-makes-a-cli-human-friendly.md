@@ -17,7 +17,7 @@ theme: default
 # Designing for humans first
 
 ---
-layout: title
+layout: cover
 ---
 
 # Following patterns that already exist
@@ -64,7 +64,7 @@ layout: title
 JSON LD (? multi-line)
 
 ---
-layout: title
+layout: cover
 ---
 
 # Designing for humans first
