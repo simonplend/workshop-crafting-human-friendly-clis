@@ -2,7 +2,7 @@
 
 // Import {parseArguments} from './src/parse-arguments.js';
 import {writeToMarkdown} from '../../helpers/writeToMarkdown.js';
-import {gatherNotesInteractively} from './src/interactive-input.js';
+import {gatherNotesInteractively} from './interactive-input.solution.js';
 
 try {
   // For this example, we'll ignore all arguments, but this is how you'd use

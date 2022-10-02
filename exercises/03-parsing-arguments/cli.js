@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import {parseArguments} from './src/parse-arguments.js';
+import {parseArguments} from './parse-arguments.solution.js';
 
 try {
   const parsedArgs = parseArguments();

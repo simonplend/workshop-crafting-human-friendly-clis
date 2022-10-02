@@ -1,4 +1,4 @@
-# 05 - Fetching data
+# Fetching data
 
 https://nodejs.dev/en/api/v18/globals/#fetch
 

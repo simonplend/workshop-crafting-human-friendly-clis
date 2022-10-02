@@ -1,13 +1,5 @@
 # Exercise: Parsing arguments
 
-# CLI project spec
-
-<!-- TODO: Move this into a main README -->
-
-You're going to build a CLI tool that will save daily notes as Markdown files.
-
-# Instructions
-
 **Goal: Add argument parsing that supports the following scenarios:**
 
 ```bash

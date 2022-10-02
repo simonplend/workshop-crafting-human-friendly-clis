@@ -2,7 +2,7 @@
 
 // Import {parseArguments} from './src/parse-arguments.js';
 import { writeToMarkdown } from "../../helpers/writeToMarkdown.js";
-import { fetchFrontMatter } from "./src/fetch-front-matter.js";
+import { fetchFrontMatter } from "./fetch-front-matter.solution.js";
 
 try {
   // For this example, we'll ignore all arguments, but this is how you'd use
