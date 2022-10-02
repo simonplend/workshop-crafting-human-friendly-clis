@@ -1,19 +1,49 @@
-# Crafting Human Friendly CLIs with Node.js Core
+# $ Crafting Human Friendly CLIs with Node.js Core █
 
-## Development
+_A workshop by [Simon Plenderleith](https://twitter.com/simonplend) &
+[Kevin Cunningham](https://twitter.com/dolearning/)._
 
-- Ensure you have the
-[EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-extension installed (settings are in [.editorconfig](.editorconfig)).
-- The git pre-commit runs linting with `xo`. It's configured to format code with
-Pretier (settings are in [.xo-config.json](.xo-config.json)).
-- Install npm packages at the root of this repository so they're available in
-all sub-directories.
-- The generation of `package-lock.json` has been disabled while we develop the
-workshop to avoid messy lockfile merge conflicts. We can generate one once the
-workshop materials are complete.
+## Requirements
 
-## TODO
+- Node.js >= v18.7.0 ([how to install](https://nodejs.dev/learn/how-to-install-nodejs))
+- npm >= v8
 
-- [ ] Generate a `package-lock.json` and remove `.npmrc` once the workshop
-materials are complete.
+Check that you have the software versions installed that you need for this workshop
+by running these commands in your terminal:
+
+```sh
+# Check Node.js version.
+node --version
+
+# Check npm version.
+npm --version
+```
+
+## Setup before the workshop
+
+To prepare for the workshop, clone this repository with Git:
+
+```sh
+git clone https://github.com/simonplend/workshop-crafting-human-friendly-clis.git
+```
+
+<!--
+
+> If you want to commit and push your work to your own repository on GitHub,
+> you will need to [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+> this repository, then clone your fork rather than this repository directly.
+
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
+
+-->
+
+## Starting the workshop
+
+There are coding exercises throughout the workshop, so to make sure you're ready,
+at the start of the workshop:
+
+- Open this project in your code editor.
+- Open a terminal window for running commands, and `cd` to the directory for
+this project.
+
+Alright, let's get started! 🚀
