@@ -1,4 +1,4 @@
-# Exercise: Parsing arguments
+# Exercise 01: Parsing arguments
 
 **Goal: Add argument parsing that supports the following scenarios:**
 
@@ -24,6 +24,8 @@ takenote -n "Today I did a lot of coding" \
 takenote -n "Today I did a lot of coding" -p
 ```
 
+<!-- TODO: Explain where to implement the code a takenote/lib/01-parsing-arguments.js -->
+
 <details>
   <summary><strong>Exercise hints (try without them to start with)</strong></summary>
 
@@ -37,5 +39,5 @@ takenote -n "Today I did a lot of coding" -p
   <summary><strong>Solution</strong></summary>
 
   You can view a potential solution in
-  [./src/parse-arguments.js](./src/parse-arguments.js).
+  [01-parsing-arguments.solution.js](./01-parsing-arguments.solution.js).
 </details>
