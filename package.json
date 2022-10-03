@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=18.9.0"
+    "node": ">=18.7.0"
   },
   "devDependencies": {
     "@fastify/pre-commit": "^2.0.2",
