@@ -2,16 +2,14 @@
   "name": "workshop-crafting-human-friendly-clis",
   "private": true,
   "scripts": {
-    "test": "npm run lint",
-    "lint": "xo --fix"
+    "test": "echo 'No tests'"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=18.7.0"
   },
   "devDependencies": {
-    "@fastify/pre-commit": "^2.0.2",
-    "xo": "^0.52.3"
+    "@fastify/pre-commit": "^2.0.2"
   },
-  "type":"module"
+  "type": "module"
 }
