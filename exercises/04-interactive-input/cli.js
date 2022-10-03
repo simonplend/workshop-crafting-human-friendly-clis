@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 // Import {parseArguments} from './src/parse-arguments.js';
-import {writeToMarkdown} from '../../helpers/writeToMarkdown.js';
-import {gatherNotesInteractively} from './interactive-input.solution.js';
+import { writeToMarkdown } from "../../helpers/writeToMarkdown.js";
+import { gatherNotesInteractively } from "./interactive-input.solution.js";
 
 try {
   // For this example, we'll ignore all arguments, but this is how you'd use
@@ -21,16 +21,6 @@ try {
     // TODO: Do interactive stuff here
     notes = await gatherNotesInteractively();
   }
-
-  notes = {
-    notes: [
-      'This is an',
-      'array of comma seperated',
-      'values that each represent a note',
-    ],
-    isPrivate: false,
-    headings: {temperature: '27'},
-  };
 
   // TODO: Write Markdown entry
   await writeToMarkdown(notes);
