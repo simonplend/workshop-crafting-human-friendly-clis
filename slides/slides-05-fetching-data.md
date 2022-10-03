@@ -36,7 +36,7 @@ try{
 
 ---
 
-- Verb
+# With a different method
 
 ```js
 try{
