@@ -3,7 +3,7 @@ import { stdin as input, stdout as output } from "node:process";
 import { fileURLToPath } from "node:url";
 
 export async function gatherNotesInteractively() {
-  console.log("Hey, I'm ready to take your note!\n");
+  console.log("Hey, I'm ready to take your notes!\n");
   const rl = readline.createInterface({ input, output });
   const notes = [];
 
@@ -27,7 +27,8 @@ export async function gatherNotesInteractively() {
   const isPrivate = askIsPrivate.toLowerCase() === "y" ? true : false;
 
   rl.close();
-  return { notes, private: isPrivate };
+
+  return { notes, isPrivate };
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
