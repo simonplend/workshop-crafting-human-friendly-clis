@@ -19,18 +19,18 @@ You can stop using this experimental API by using `--no-experimental-fetch`, alt
 The MDN docs for the fetch method [can be found here](https://developer.mozilla.org/en-US/docs/Web/API/fetch).
 
 - Fetch
-	- response.ok
+  - response.ok
 
 ```js
-try{
-	const response = await fetch("https://swapi.dev/api/planets")
-	if(!response.ok) {
-		throw new Error("Problem fetching the resource.")
+try {
+	const response = await fetch("https://swapi.dev/api/planets");
+	if (!response.ok) {
+		throw new Error("Problem fetching the resource.");
 	}
-	const data = await response.json()
-	console.log(data)
-} catch(error) {
-	console.log(error)
+	const data = await response.json();
+	console.log(data);
+} catch (error) {
+	console.log(error);
 }
 ```
 
@@ -39,15 +39,17 @@ try{
 # With a different method
 
 ```js
-try{
-	const response = await fetch("https://swapi.dev/api/planets", {method: "POST"})
-	if(!response.ok) {
-		throw new Error("Problem fetching the resource.")
+try {
+	const response = await fetch("https://swapi.dev/api/planets", {
+		method: "POST",
+	});
+	if (!response.ok) {
+		throw new Error("Problem fetching the resource.");
 	}
-	const data = await response.json()
-	console.log(data)
-} catch(error) {
-	console.log(error)
+	const data = await response.json();
+	console.log(data);
+} catch (error) {
+	console.log(error);
 }
 ```
 
@@ -56,18 +58,21 @@ try{
 # With API key
 
 ```js
-const token = "GOT MY TOKEN FROM SOMEWHERE"
+const token = "GOT MY TOKEN FROM SOMEWHERE";
 
-try{
-	const response = await fetch("https://swapi.dev/api/planets", {method: "POST", headers: {
-		Authorization: `Bearer ${token}`
-	}})
-	if(!response.ok) {
-		throw new Error("Problem fetching the resource.")
+try {
+	const response = await fetch("https://swapi.dev/api/planets", {
+		method: "POST",
+		headers: {
+			Authorization: `Bearer ${token}`,
+		},
+	});
+	if (!response.ok) {
+		throw new Error("Problem fetching the resource.");
 	}
-	const data = await response.json()
-	console.log(data)
-} catch(error) {
-	console.log(error)
+	const data = await response.json();
+	console.log(data);
+} catch (error) {
+	console.log(error);
 }
 ```

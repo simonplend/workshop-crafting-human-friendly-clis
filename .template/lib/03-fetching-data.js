@@ -16,5 +16,5 @@
 */
 
 export async function fetchFrontMatter() {
-  return {};
+	return {};
 }

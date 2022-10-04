@@ -20,5 +20,5 @@
 */
 
 export async function gatherNotesInteractively() {
-  return {};
+	return {};
 }

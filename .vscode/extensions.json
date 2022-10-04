@@ -1,4 +1,4 @@
 {
-  "recommendations": ["EditorConfig.EditorConfig"],
-  "unwantedRecommendations": []
+	"recommendations": ["EditorConfig.EditorConfig"],
+	"unwantedRecommendations": []
 }

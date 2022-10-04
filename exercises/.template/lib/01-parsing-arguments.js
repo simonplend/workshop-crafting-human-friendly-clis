@@ -1,3 +1,3 @@
 export function parseArguments() {
-  return {};
+	return {};
 }

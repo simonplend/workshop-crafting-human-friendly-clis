@@ -29,15 +29,16 @@ takenote -n "Today I did a lot of coding" -p
 <details>
   <summary><strong>Exercise hints (try without them to start with)</strong></summary>
 
-  - Every argument provided in the options to `parseArgs()` must have a type.
-  - The `multiple` property allows us to control whether an option can be provided
+- Every argument provided in the options to `parseArgs()` must have a type.
+- The `multiple` property allows us to control whether an option can be provided
   multiple times.
-  - We can specify a single character alias for an option by setting a `short` property.
+- We can specify a single character alias for an option by setting a `short` property.
 </details>
 
 <details>
   <summary><strong>Solution</strong></summary>
 
-  You can view a potential solution in
-  [01-parsing-arguments.solution.js](./01-parsing-arguments.solution.js).
+You can view a potential solution in
+[01-parsing-arguments.solution.js](./01-parsing-arguments.solution.js).
+
 </details>

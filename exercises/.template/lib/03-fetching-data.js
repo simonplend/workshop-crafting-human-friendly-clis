@@ -16,5 +16,5 @@ https://api-ninjas.com/
 */
 
 export async function fetchFrontMatter() {
-  return {};
+	return {};
 }

@@ -45,7 +45,7 @@ There are coding exercises throughout this workshop. To make sure you're ready:
 
 - Open this project in your code editor.
 - Open a terminal window for running commands, and `cd` to the directory for
-this project.
+  this project.
 
 You're now ready to get started! 🚀
 

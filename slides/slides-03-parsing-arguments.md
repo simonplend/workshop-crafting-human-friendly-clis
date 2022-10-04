@@ -6,8 +6,8 @@ layout: cover
 # Parsing arguments
 
 ---
-layout: cover
----
+
+## layout: cover
 
 # Terminology
 
@@ -21,8 +21,8 @@ layout: cover
 <!-- TODO: Examples -->
 
 ---
-layout: cover
----
+
+## layout: cover
 
 # Commonly used libraries
 
@@ -82,16 +82,16 @@ import { parseArgs } from "node:util";
 import { parseArgs } from "node:util";
 
 const args = parseArgs({
-  options: {
-    name: {
-      type: "string",
-    },
-    verbose: {
-      type: "boolean",
-      short: "v",
-    },
-  },
-  allowPositionals: true,
+	options: {
+		name: {
+			type: "string",
+		},
+		verbose: {
+			type: "boolean",
+			short: "v",
+		},
+	},
+	allowPositionals: true,
 });
 
 console.log(args);
@@ -105,38 +105,39 @@ console.log(args);
 
 ## `util.parseArgs([config])`
 
-* `config` {Object} Used to provide arguments for parsing and to configure
+- `config` {Object} Used to provide arguments for parsing and to configure
   the parser. `config` supports the following properties:
-  * `args` {string\[]} array of argument strings. **Default:** `process.argv`
+
+  - `args` {string\[]} array of argument strings. **Default:** `process.argv`
     with `execPath` and `filename` removed.
-  * `options` {Object} Used to describe arguments known to the parser.
+  - `options` {Object} Used to describe arguments known to the parser.
     Keys of `options` are the long names of options and values are an
     {Object} accepting the following properties:
-    * `type` {string} Type of argument, which must be either `boolean` or `string`.
-    * `multiple` {boolean} Whether this option can be provided multiple
+    - `type` {string} Type of argument, which must be either `boolean` or `string`.
+    - `multiple` {boolean} Whether this option can be provided multiple
       times. If `true`, all values will be collected in an array. If
       `false`, values for the option are last-wins. **Default:** `false`.
-    * `short` {string} A single character alias for the option.
-  * `strict` {boolean} Should an error be thrown when unknown arguments
+    - `short` {string} A single character alias for the option.
+  - `strict` {boolean} Should an error be thrown when unknown arguments
     are encountered, or when arguments are passed that do not match the
     `type` configured in `options`.
     **Default:** `true`.
-  * `allowPositionals` {boolean} Whether this command accepts positional
+  - `allowPositionals` {boolean} Whether this command accepts positional
     arguments.
     **Default:** `false` if `strict` is `true`, otherwise `true`.
-  * `tokens` {boolean} Return the parsed tokens. This is useful for extending
+  - `tokens` {boolean} Return the parsed tokens. This is useful for extending
     the built-in behavior, from adding additional checks through to reprocessing
     the tokens in different ways.
     **Default:** `false`.
 
-* Returns: {Object} The parsed command line arguments:
-  * `values` {Object} A mapping of parsed option names with their {string}
+- Returns: {Object} The parsed command line arguments:
+  - `values` {Object} A mapping of parsed option names with their {string}
     or {boolean} values.
-  * `positionals` {string\[]} Positional arguments.
-  * `tokens` {Object\[] | undefined} See [parseArgs tokens](#parseargs-tokens)
+  - `positionals` {string\[]} Positional arguments.
+  - `tokens` {Object\[] | undefined} See [parseArgs tokens](#parseargs-tokens)
     section. Only returned if `config` includes `tokens: true`.
 
-*Source: [Node.js documentation for parseArgs](https://nodejs.org/api/util.html#utilparseargsconfig)*
+_Source: [Node.js documentation for parseArgs](https://nodejs.org/api/util.html#utilparseargsconfig)_
 
 ---
 
@@ -148,10 +149,10 @@ Contributed by [Manuel Spigolon](https://github.com/Eomm).
 const args = [];
 
 const options = {
-  a: {
-    type: 'string',
-    default: 'HELLO'
-  }
+	a: {
+		type: "string",
+		default: "HELLO",
+	},
 };
 
 const result = parseArgs({ args, options });

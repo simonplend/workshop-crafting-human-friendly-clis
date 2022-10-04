@@ -17,8 +17,8 @@ theme: default
 # Designing for humans first
 
 ---
-layout: cover
----
+
+## layout: cover
 
 # Following patterns that already exist
 
@@ -50,7 +50,6 @@ layout: cover
 
 ---
 
-
 # Exit codes — zero and non-zero
 
 <!-- TODO: Example -->
@@ -64,8 +63,8 @@ layout: cover
 JSON LD (? multi-line)
 
 ---
-layout: cover
----
+
+## layout: cover
 
 # Designing for humans first
 
@@ -104,7 +103,6 @@ Explicit vs implicit
 
 <!-- TODO: Example -->
 
-
 ---
 
 # Output just enough information
@@ -129,7 +127,7 @@ No information about what's happening can be frustrating.
 ---
 
 - In the context of… ?
-	- Interactive input
-	- Handling network errors (fetch)
+  - Interactive input
+  - Handling network errors (fetch)
 
 <!-- TODO: Anything else to include? -->

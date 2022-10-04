@@ -1,17 +1,17 @@
 {
-  "name": "workshop-crafting-human-friendly-clis",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "echo 'No tests'",
-    "create-cli": "./create-cli",
-    "remove-cli": "rm -rf takenote && npm uninstall takenote"
-  },
-  "license": "UNLICENSED",
-  "engines": {
-    "node": ">=18.7.0"
-  },
-  "devDependencies": {
-    "@fastify/pre-commit": "^2.0.2"
-  }
+	"name": "workshop-crafting-human-friendly-clis",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"test": "echo 'No tests'",
+		"create-cli": "./create-cli",
+		"remove-cli": "rm -rf takenote && npm uninstall takenote"
+	},
+	"license": "UNLICENSED",
+	"engines": {
+		"node": ">=18.7.0"
+	},
+	"devDependencies": {
+		"@fastify/pre-commit": "^2.0.2"
+	}
 }
