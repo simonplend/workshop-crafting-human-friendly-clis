@@ -2,12 +2,14 @@
 
 set -xe pipefail
 
+# Create CLI project directory
 mkdir takenote
 
 # Copy template skeleton CLI code
 cp -r .template/* takenote/
 
-cd takenote
+# Change into the CLI project directory
+cd takenote/
 
 # Create package.json
 npm init --yes
@@ -29,3 +31,10 @@ chmod ug+x cli.js
 
 # Configure package bin scripts
 npm pkg set bin.takenote="./cli.js"
+
+# Change back into the directory
+cd ..
+
+# Install the takenote CLI as a project dependency
+# This allows us to run the CLI with `npx takenote`
+npm install ./takenote/

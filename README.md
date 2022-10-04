@@ -39,12 +39,7 @@ git clone https://github.com/simonplend/workshop-crafting-human-friendly-clis.gi
 > [sync it](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 > with this repository at the start of the workshop.
 
-### 3. And you're done!
-
-There's nothing to install as we'll only be working with Node.js core APIs —
-you're now ready for the workshop ✨
-
-## Starting the workshop
+### 3. Open your editor and terminal
 
 There are coding exercises throughout this workshop. To make sure you're ready:
 
@@ -52,5 +47,27 @@ There are coding exercises throughout this workshop. To make sure you're ready:
 - Open a terminal window for running commands, and `cd` to the directory for
 this project.
 
-You're ready to get started — head over to the
-[workshop exercises](./exercises/README.md)! 🚀
+You're now ready to get started! 🚀
+
+## Workshop exercises
+
+We're going to build a CLI tool with APIs that are available in Node.js core.
+This tool will allow us to input notes and store them as daily notes in Markdown
+files.
+
+### Create a skeleton CLI
+
+You can generate a skeleton CLI by running the [create-cli](./create-cli)
+shell script in your terminal:
+
+```bash
+npm run create-cli
+```
+
+### Run your CLI
+
+```bash
+npx takenote
+```
+
+### 👉 Start the first exercise: [01 - Parsing arguments](./exercises/01-parsing-arguments.md)
