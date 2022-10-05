@@ -1,7 +1,5 @@
 ---
-theme: seriph
 layout: cover
-lineNumbers: true
 ---
 
 # Fetching data
@@ -32,7 +30,7 @@ You can stop using this experimental API by using `--no-experimental-fetch`, alt
 
 The MDN docs for the fetch method [can be found here](https://developer.mozilla.org/en-US/docs/Web/API/fetch).
 
-It's likely you're familar with this syntax but let's look at some examples. 
+It's likely you're familar with this syntax but let's look at some examples.
 
 ---
 

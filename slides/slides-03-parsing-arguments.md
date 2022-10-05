@@ -1,5 +1,4 @@
 ---
-theme: seriph
 layout: statement
 ---
 

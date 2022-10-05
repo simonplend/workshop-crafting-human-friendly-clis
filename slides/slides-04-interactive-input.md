@@ -1,7 +1,5 @@
 ---
-theme: seriph
 layout: cover
-lineNumbers: true
 ---
 
 # Interactive Input
@@ -95,5 +93,3 @@ const answers = await inquirer.prompt([
 console.log(`Your name is ${answers.name}.`);
 console.log(`You live in ${answers.live} which is in ${answers.live2}`);
 ```
-
-

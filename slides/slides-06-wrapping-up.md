@@ -9,8 +9,6 @@ layout: cover
 
 # Other CLI topics to explore
 
-<!-- TODO: Add in links -->
-
 You’ll need third-party libraries for some of these tasks.
 
 - Handling standard input (stdin)

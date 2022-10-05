@@ -1,9 +1,4 @@
----
-theme: seriph
----
-
 # What makes a CLI human friendly?
-
 
 ---
 
