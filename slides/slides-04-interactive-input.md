@@ -1,6 +1,7 @@
 ---
 theme: seriph
 layout: cover
+lineNumbers: true
 ---
 
 # Interactive Input
@@ -11,7 +12,7 @@ Asking and posing questions is an important part of crafting CLIs.
 
 With Node code, we've had a callback based API for a while.
 
-```js
+```js {all|1|2|4|6-11|10|13|all}
 import * as readline from "node:readline";
 import { stdin as input, stdout as output } from "node:process";
 
@@ -31,7 +32,9 @@ console.log("I'm here too");
 
 readline/promises allows us to write code in a more intuitive way.
 
-```js
+It was added in v17.0.0 and is marked as experimental.
+
+```js {all|1|2-4|6|6-8|10}
 import * as readline from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 
@@ -46,13 +49,9 @@ rl.close();
 
 ---
 
-# Recursive
-
----
-
 # We can use abort controller.
 
-```js
+```js {all|1-2|4-6|8-14|16|all}
 const ac = new AbortController();
 const signal = ac.signal;
 
