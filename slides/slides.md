@@ -1,4 +1,8 @@
 ---
+theme: seriph
+---
+
+---
 src: ./slides-01-introduction.md
 ---
 src: ./slides-02-what-makes-a-cli-human-friendly.md
