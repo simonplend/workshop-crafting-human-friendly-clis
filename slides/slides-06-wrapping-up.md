@@ -21,6 +21,16 @@ You’ll need third-party libraries for some of these tasks.
 
 ---
 
+# Awesome CLI resources
+
+- [Command Line Interface Guidelines](https://clig.dev/)
+- [Node.js CLI Apps Best Practices](https://github.com/lirantal/nodejs-cli-apps-best-practices)
+- [Design guidelines for GitHub's command line tool](https://primer.style/cli/)
+- Twitter thread: [11 UX patterns for delightful CLI applications](https://twitter.com/thewizardlucas/status/1534852315567497218)
+- Twitter thread: [6 of my favorite third-party libraries when building CLI applications using Node.js](https://twitter.com/loige/status/1570328926488088577)
+
+---
+
 # Thank you to...
 
 The people whose fantastic work helped paved the way for this workshop.
