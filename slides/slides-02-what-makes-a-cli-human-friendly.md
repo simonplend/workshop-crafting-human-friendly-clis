@@ -18,45 +18,22 @@ theme: seriph
 
 <v-clicks>
 
-- Follow the conventions of the Unix environment
-- There are over 40 years of CLI design conventions that we can draw upon
-- Following these conventions provides a strong technical foundation
-- Makes a CLI intuitive and guessable
-- Makes users efficient
+- Use POSIX-compliant command line argument syntax
+- Standard in/out/err
+- Use POSIX signals — SIGINT, TODO
+- Exit codes — zero and non-zero
+- Piping plain text or JSON between commands
 
 </v-clicks>
 
----
+<!-- - Follow the conventions of the Unix environment
+- There are over 40 years of CLI design conventions that we can draw upon
+- Following these conventions provides a strong technical foundation
+- Makes a CLI intuitive and guessable
+- Makes users efficient -->
 
-# Use POSIX-compliant command line argument syntax
 
-<!-- TODO: Example -->
 
----
-
-# Standard in/out/err
-
-<!-- TODO: Example -->
-
----
-
-# Use POSIX signals — SIGINT, TODO
-
-<!-- TODO: Example -->
-
----
-
-# Exit codes — zero and non-zero
-
-<!-- TODO: Example -->
-
----
-
-# Piping plain text or JSON between commands
-
-<!-- TODO: Example -->
-
-JSON LD (? multi-line)
 
 ---
 ## layout: cover
