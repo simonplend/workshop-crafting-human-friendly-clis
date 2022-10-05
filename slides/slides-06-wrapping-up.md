@@ -28,23 +28,25 @@ You’ll need third-party libraries for some of these tasks.
 The people whose fantastic work helped paved the way for this workshop.
 
 - CLIG authors
-	- Aanand Prasad
-	- Ben Firshman
-	- Carl Tashian
-	- Eva Parish
-- parseargs contributors (TODO)
-- readline/promises contributors (TODO)
-- Undici contributors (TODO)
+- parseargs contributors 
+- readline/promises contributors 
+- Undici contributors 
 - Node.js collaborators
 - Liran Tal
 - Lucas Costa
 - Luciano Mammino
 
 ---
-
+layout: image-right
+image: feedback-qr.png
+---
 # Thank YOU!
 
 Thanks for joining us today.
+
+If you could take a few minutes to give us some feedback it would be super helpful!
+
+https://tally.so/r/nWO4gv
 
 <!-- TODO: Feedback form URL -->
 
