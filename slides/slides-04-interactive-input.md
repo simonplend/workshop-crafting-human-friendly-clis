@@ -69,3 +69,31 @@ signal.addEventListener(
 
 setTimeout(() => ac.abort(), 10000);
 ```
+
+---
+
+# Limitations
+
+There are other libraries that you might have used for this in the past.
+
+- inquirer allows for built in validation and questions of different types (list, checkbox, password)
+
+```js {all|3|4|6-11|14-15}
+import inquirer from "inquirer";
+
+const answers = await inquirer.prompt([
+    { type: "input", name: "name", message: "What is your name?" },
+    { type: "input", name: "live", message: "Where do you live?" },
+    {
+      type: "list",
+      name: "live2",
+      message: "Where do you live?",
+      choices: ["NI", "Wales", "Scotland", "England", "Elsewhere"],
+    },
+  ]);
+
+console.log(`Your name is ${answers.name}.`);
+console.log(`You live in ${answers.live} which is in ${answers.live2}`);
+```
+
+
