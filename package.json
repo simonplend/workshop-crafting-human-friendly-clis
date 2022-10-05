@@ -4,7 +4,7 @@
 	"type": "module",
 	"scripts": {
 		"test": "npm run format",
-		"format": "npx prettier --write .",
+		"format": "npx prettier --write **/*.js",
 		"create-cli": "./create-cli",
 		"remove-cli": "rm -rf takenote && npm uninstall takenote"
 	},
