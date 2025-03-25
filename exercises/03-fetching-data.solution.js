@@ -5,7 +5,7 @@ export async function fetchFrontMatter() {
 		"https://api.api-ninjas.com/v1/hobbies?category=observation",
 		// Note: You should generally avoid committing API keys into your code!
 		// This is just for the purpose of this exercise solution.
-		{ headers: { "x-api-key": "8nwhD4qswzTg291zpZ1Q3w==zFcGN0dcQt7s9B28" } }
+		{ headers: { "x-api-key": "8nwhD4qswzTg291zpZ1Q3w==zFcGN0dcQt7s9B28" } },
 	);
 
 	const data = await response.json();
