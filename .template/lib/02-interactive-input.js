@@ -1,5 +1,5 @@
 /*
-  == Exercise: Interactive input ==
+  == Exercise 02: Interactive input ==
 
   - If the CLI tool is run without command line arguments,
     it should run in interactive input mode.
