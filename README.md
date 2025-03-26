@@ -5,12 +5,17 @@ _A workshop by [Simon Plenderleith](https://twitter.com/simonplend) &
 
 ## Getting ready for the workshop
 
+To get the most from this workshop you'll want to be comfortable writing JavaScript, but it's
+fine if you've not used Node.js much before. It'll also help if you have at least a little
+experience running commands in a terminal.
+
 ### 1. Required software
 
 You'll need to have this software installed:
 
-- Node.js >= v18.7.0 ([how to install](https://nodejs.dev/en/learn/how-to-install-nodejs/))
+- Node.js >= v20.18.0 ([how to install](https://nodejs.dev/en/learn/how-to-install-nodejs/))
 - npm >= v8
+- Your favourite code editor
 
 Check that you have the software versions installed that you need for this workshop
 by running these commands in your terminal:

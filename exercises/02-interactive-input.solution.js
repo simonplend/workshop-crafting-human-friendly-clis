@@ -11,7 +11,7 @@ export async function gatherNotesInteractively() {
 		const note = await rl.question("?:");
 		if (!note) {
 			const sure = await rl.question(
-				"Looks like you're done. Are you sure? (y/n) "
+				"Looks like you're done. Are you sure? (y/n) ",
 			);
 			if (sure.toLowerCase() === "y") {
 				break;
@@ -21,7 +21,7 @@ export async function gatherNotesInteractively() {
 	}
 
 	const askIsPrivate = await rl.question(
-		"Would you like these notes to be private? (y/n) "
+		"Would you like these notes to be private? (y/n) ",
 	);
 
 	const isPrivate = askIsPrivate.toLowerCase() === "y" ? true : false;
